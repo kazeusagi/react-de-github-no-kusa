@@ -1,14 +1,15 @@
 {
-	"terminal.integrated.defaultProfile.linux": "bash",
-	
-	"explorer.compactFolders": false,
-	
+  "terminal.integrated.defaultProfile.linux": "bash",
+
+  "explorer.compactFolders": false,
+
   "editor.tabSize": 2,
   "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnSave": true,
-	"editor.codeActionsOnSave": {
-		"source.fixAll.biome": "explicit",
-		"source.organizeImports.biome": "explicit",
-		"source.addMissingImports.ts": "explicit"
-	}
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports.biome": "explicit",
+    "source.addMissingImports.ts": "explicit"
+  },
+  "cSpell.words": ["kusa"]
 }
