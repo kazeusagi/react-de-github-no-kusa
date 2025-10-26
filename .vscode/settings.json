@@ -1,6 +1,8 @@
 {
 	"terminal.integrated.defaultProfile.linux": "bash",
 	
+	"explorer.compactFolders": false,
+	
   "editor.tabSize": 2,
   "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnSave": true,

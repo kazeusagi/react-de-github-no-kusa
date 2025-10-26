@@ -17,7 +17,8 @@
       "extensions": [
         "oderwat.indent-rainbow",
         "streetsidesoftware.code-spell-checker",
-        "biomejs.biome"
+        "biomejs.biome",
+        "fabiospampinato.vscode-terminals"
       ]
     }
   }
