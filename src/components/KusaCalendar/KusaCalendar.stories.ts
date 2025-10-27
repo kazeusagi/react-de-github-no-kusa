@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
-import { KusaContainer } from './KusaContainer';
+import { KusaCalendar } from './KusaCalendar';
 
 // Config
 const meta = {
-  component: KusaContainer,
-} satisfies Meta<typeof KusaContainer>;
+  component: KusaCalendar,
+} satisfies Meta<typeof KusaCalendar>;
 export default meta;
 type Story = StoryObj<typeof meta>;
 

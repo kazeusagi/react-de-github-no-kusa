@@ -1,8 +1,9 @@
-import { Kusa } from './Kusa/Kusa';
+import { Kusa } from './Kusa';
+import { styles } from './KusaCalendar.css';
 
-export function KusaContainer() {
+export function KusaCalendar() {
   return (
-    <table>
+    <table className={styles.table}>
       {Array.from({ length: 7 }).map((_, rowIndex) => (
         <tr key={rowIndex}>
           {Array.from({ length: 40 }).map((_, colIndex) => (
