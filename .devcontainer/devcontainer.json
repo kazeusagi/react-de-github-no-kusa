@@ -16,7 +16,8 @@
         "oderwat.indent-rainbow",
         "streetsidesoftware.code-spell-checker",
         "biomejs.biome",
-        "fabiospampinato.vscode-terminals"
+        "fabiospampinato.vscode-terminals",
+        "formulahendry.auto-rename-tag"
       ]
     }
   }

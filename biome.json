@@ -21,17 +21,16 @@
         "noUnusedImports": { "level": "warn", "fix": "safe", "options": {} },
         "useExhaustiveDependencies": "info"
       },
-      "style": { "useImportType": "off" }
+      "suspicious": {
+        "noArrayIndexKey": "info"
+      }
     }
   },
   "javascript": {
     "formatter": {
       "quoteStyle": "single",
-      "jsxQuoteStyle": "double",
-      "lineWidth": 120
-    },
-    "parser": {
-      "unsafeParameterDecoratorsEnabled": true
+      "jsxQuoteStyle": "single",
+      "lineWidth": 100
     }
   },
   "assist": {
